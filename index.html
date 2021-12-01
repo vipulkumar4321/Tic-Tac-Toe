@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tic-Tac-Toe Game</title>
+
+	<!-- Favicon -->
+	 <link rel="icon" href="tic_tac_toe.ico" type="image/x-icon">
+
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<!-- Stylesheet and Google Font -->
+  <link href="board.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<nav class="navbar navbar-dark bg-dark ">
+        <div class="container justify-content-center">
+            <a class="navbar-brand" href="#">Tic-Tac-Toe</a>
+        </div>
+    </nav>
+<div class="container Box1 align-middle">
+  <table>
+    <tr>
+	  <td class="cell" id="0"></td>
+      <td class="cell" id="1"></td>
+      <td class="cell" id="2"></td>
+    </tr>
+
+		<tr>
+			<td class="cell" id="3"></td>
+      <td class="cell" id="4"></td>
+      <td class="cell" id="5"></td>
+    </tr>
+
+		<tr>
+			<td class="cell" id="6"></td>
+      <td class="cell" id="7"></td>
+      <td class="cell" id="8"></td>
+    </tr>
+  </table>
+   <div class="endgame">
+			<div class="text">
+
+			</div>
+	 </div>
+	 <br />
+	 <br />
+	 <div class="text-center">
+		  <button onClick="startGame()" class="btn btn-info">Replay</button>
+	 </div>
+	</div>
+		<script src="script.js"></script>
+</body>
+
+</html>
